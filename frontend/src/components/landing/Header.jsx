@@ -9,12 +9,20 @@ export const Header = () => (
       <a
         href="/bpc-loas"
         data-testid="header-brand-link"
-        className="flex items-baseline gap-2"
+        className="flex items-center gap-2.5"
         aria-label="Junqueira Advogados"
       >
-        <span className="text-lg font-semibold tracking-tight text-[#1C1C1E]">Junqueira</span>
-        <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#804040]">
-          Advogados
+        <img
+          src="/logo-mark-wine.png"
+          alt=""
+          className="h-9 w-9 object-contain"
+          data-testid="header-logo"
+        />
+        <span className="flex items-baseline gap-2">
+          <span className="text-lg font-semibold tracking-tight text-[#1C1C1E]">Junqueira</span>
+          <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#804040]">
+            Advogados
+          </span>
         </span>
       </a>
       <span className="hidden items-center gap-2 text-[11px] font-medium uppercase tracking-[0.22em] text-[#55555C] sm:flex">

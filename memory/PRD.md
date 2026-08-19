@@ -26,6 +26,7 @@
 - Sticky CTA mobile (aparece após 420px de scroll)
 - 3 páginas legais com textos padrão
 - Dados reais do escritório: Junqueira Advogados & Associados (8 anos, Luzilândia-PI), sócios Adônis Ferreira (OAB/PI 23.588), Marcos Vinicius (OAB/PI 23.610), Filipe Junqueira (OAB/PI 15.510 · OAB/MA 28.024-A), telefone +55 86 4009-6145, 7 unidades (Teresina, Parnaíba, Luzilândia, Esperantina, Barras/PI; São Bernardo, Araioses/MA) no rodapé; texto institucional real na seção "06 — Institucional"
+- Logo oficial aplicada: emblema vinho + nome no cabeçalho (fundo claro), logo completa branca no rodapé (fundo escuro), favicon gerado a partir do emblema. Arquivos em /app/frontend/public/ (logo-wine.png, logo-white.png, logo-mark-wine.png, logo-mark-white.png, favicon.png)
 - SEO: title/meta exclusivos, lang pt-BR, imagens com lazy loading/auto-format
 - Verificado: desktop + mobile 390px via screenshots; eventos dataLayer e URL do Flipform validados; novo CTA e dados reais conferidos em tela
 

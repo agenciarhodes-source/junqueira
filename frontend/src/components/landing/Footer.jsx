@@ -12,8 +12,13 @@ export const Footer = () => (
     <div className="mx-auto max-w-[1200px] px-5 pt-14 sm:px-6 lg:px-8">
       <div className="grid gap-10 sm:grid-cols-3">
         <div>
-          <p className="text-lg font-semibold text-white">{SITE.firmName}</p>
-          <p className="mt-1 text-[11px] font-semibold uppercase tracking-[0.3em] text-[#C5A059]">
+          <img
+            src="/logo-white.png"
+            alt="Junqueira Advogados & Associados"
+            data-testid="footer-logo"
+            className="h-28 w-auto object-contain"
+          />
+          <p className="mt-3 text-[11px] font-semibold uppercase tracking-[0.3em] text-[#C5A059]">
             {SITE.area}
           </p>
           <p className="mt-4 max-w-[36ch] text-sm leading-relaxed">{SITE.tagline}</p>
