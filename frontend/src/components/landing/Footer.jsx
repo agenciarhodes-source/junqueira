@@ -18,9 +18,6 @@ export const Footer = () => (
             data-testid="footer-logo"
             className="h-28 w-auto object-contain"
           />
-          <p className="mt-3 text-[11px] font-semibold uppercase tracking-[0.3em] text-[#C5A059]">
-            {SITE.area}
-          </p>
           <p className="mt-4 max-w-[36ch] text-sm leading-relaxed">{SITE.tagline}</p>
           <ul className="mt-5 space-y-1.5 text-xs text-white/50">
             {SITE.partners.map((partner, i) => (
