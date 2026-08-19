@@ -1,0 +1,161 @@
+{
+  "project_title": "Junqueira Advogados - Landing Page Alta Conversão BPC/LOAS",
+  "archetype": "ARCHETYPE 5: LUXURY & INSTITUTIONAL EDITORIAL (Sóbria, Elegante, Jurídica, Alta Confiança)",
+  "theme": {
+    "mode": "light",
+    "primary": "#804040",
+    "primary_hover": "#663333",
+    "primary_light": "#F7F0F0",
+    "background": "#F1F1F1",
+    "card_bg": "#FFFFFF",
+    "text_dark": "#1C1C1E",
+    "text_muted": "#55555C",
+    "gold_accent": "#C5A059",
+    "gold_accent_soft": "#FAF5EC",
+    "border_subtle": "#E2E2E2",
+    "border_accent": "#D4C2A3"
+  },
+  "typography": {
+    "font_family_primary": "Poppins, sans-serif",
+    "font_family_headings": "Poppins, sans-serif",
+    "font_family_editorial": "Cormorant Garamond, Georgia, serif",
+    "h1_hero": "text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#1C1C1E] tracking-tight leading-[1.15]",
+    "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#1C1C1E] tracking-tight leading-snug",
+    "h3_card": "text-lg sm:text-xl font-medium text-[#1C1C1E]",
+    "body_text": "text-base text-[#55555C] leading-relaxed",
+    "label_uppercase": "text-xs font-semibold uppercase tracking-[0.2em] text-[#804040]"
+  },
+  "layout_and_spacing": {
+    "max_width_desktop": "max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8",
+    "section_padding": "py-16 sm:py-24 lg:py-28",
+    "container_borders": "border border-[#E2E2E2] rounded-xl p-6 sm:p-8 bg-white shadow-[0_4px_20px_rgba(0,0,0,0.03)]",
+    "mobile_first_390px": "Designed for flawless rendering from 390px mobile screens to 1240px wide desktop displays",
+    "whitespace": "Generous vertical breathing room with 2x to 3x spacing scale"
+  },
+  "motion_and_effects": {
+    "hero_reveal": "Kinetic line-by-line masked reveal animation using Framer Motion",
+    "smooth_scroll": "Lenis or smooth CSS scroll behavior with scroll progress bar in deep wine",
+    "editorial_marquee": "Slow, elegant auto-scrolling ribbon with legal focus terms in soft gold/wine tone",
+    "parallax_hero": "Subtle translate-y parallax on hero photo container during scroll",
+    "micro_interactions": "Card hover elevation (-translate-y-1), border color shift to gold/wine, ripple effect on primary CTA button"
+  },
+  "key_functionalities_and_sections": [
+    {
+      "id": "hero_section",
+      "name": "1. Hero Principal",
+      "elements": [
+        "Etiqueta de área jurídica: 'DIREITO PREVIDENCIÁRIO | BPC/LOAS'",
+        "H1 obrigatório: 'BPC/LOAS: entenda quais critérios fazem parte da análise'",
+        "Subtítulo explicativo sóbrio e sem promessas irrealistas",
+        "3 microelementos de confiança em pill badges: 'Atendimento digital seguro', 'Análise individualizada e criteriosa', 'Junqueira Advogados'",
+        "Botão CTA único: 'INICIAR TRIAGEM' (cor #804040 com borda suave dourada e micro-brilho ao passar o mouse)",
+        "Imagem contextual humana e profissional com enquadramento nobre e parallax suave"
+      ]
+    },
+    {
+      "id": "situations_section",
+      "name": "2. Esta página pode ajudar a entender situações como:",
+      "elements": [
+        "Card 1: 'Ainda não houve pedido' (Orientação prévia sobre requisitos e renda familiar)",
+        "Card 2: 'Pedido está em análise' (Acompanhamento dos prazos e exigências do INSS)",
+        "Card 3: 'Pedido foi indeferido' (Entendimento dos motivos do indeferimento administrativo)",
+        "Card 4: 'Dúvidas sobre os critérios' (Critérios médicos, sociais e composição da renda per capita)"
+      ]
+    },
+    {
+      "id": "content_blocks_section",
+      "name": "3. Conteúdo Explicativo em 4 Blocos Editoriais",
+      "elements": [
+        "Capítulo 01: 'O que é o BPC/LOAS' (Conceito legal, garantia constitucional, papel da assistência social)",
+        "Capítulo 02: 'Quasi informações fazem parte da análise' (Critério de deficiência/idade e renda do grupo familiar)",
+        "Capítulo 03: 'Documentação e registros' (CadÚnico atualizado, laudos médicos e comprovantes de residência/renda)",
+        "Capítulo 04: 'Pedido em análise ou indeferido' (Caminhos administrativos e judiciais para reavaliação)"
+      ]
+    },
+    {
+      "id": "analysis_cards_section",
+      "name": "4. O que normalmente é analisado",
+      "elements": [
+        "Card 1 (Ícone Situação): 'Situação atual' (Aferição de deficiência de longo prazo ou idade superior a 65 anos)",
+        "Card 2 (Ícone Família): 'Informações familiares' (Quem reside na mesma casa e composição do orçamento)",
+        "Card 3 (Ícone Documento): 'Documentação' (Exames, pareceres médicos, inscrição ativa e correta no CadÚnico)",
+        "Card 4 (Ícone Histórico): 'Histórico do pedido' (Petições anteriores, cartas de indeferimento e status no Meu INSS)"
+      ]
+    },
+    {
+      "id": "how_it_works_section",
+      "name": "5. Como funciona (3 Passos Numerados)",
+      "elements": [
+        "Passo 01: 'Preenchimento da Triagem' (Responda a perguntas objetivas sobre a sua situação jurídica)",
+        "Passo 02: 'Análise Técnica Prévia' (Nossa equipe jurídica examina as informações prestadas)",
+        "Passo 03: 'Retorno Orientativo' (Apresentação dos caminhos cabíveis sem compromisso irreal)"
+      ]
+    },
+    {
+      "id": "faq_accordion_section",
+      "name": "6. Perguntas Frequentes (FAQ Accordion)",
+      "elements": [
+        "Pergunta 1: Quem tem direito ao BPC/LOAS?",
+        "Pergunta 2: Preciso ter contribuído para o INSS para receber o BPC?",
+        "Pergunta 3: O que acontece se o CadÚnico estiver desatualizado?",
+        "Pergunta 4: O BPC paga 13º salário ou deixa pensão por morte?",
+        "Pergunta 5: Meu pedido foi negado pelo INSS. O que devo fazer?",
+        "Pergunta 6: Qual a diferença entre BPC e aposentadoria?"
+      ]
+    },
+    {
+      "id": "institutional_section",
+      "name": "7. Junqueira Advogados — Institucional",
+      "elements": [
+        "Texto sóbrio, ético e institucional sobre a tradição e compromisso técnico do escritório com o Direito Previdenciário e assistência social."
+      ]
+    },
+    {
+      "id": "footer_section",
+      "name": "8. Rodapé Institucional",
+      "elements": [
+        "Razão Social / Dados Jurídicos e número de inscrição OAB",
+        "Links de Compliance: Política de Privacidade, Termos de Uso, Transparência LGPD",
+        "Canais Oficiais de Atendimento (E-mail, Telefone, Endereço institucional)",
+        "Aviso Ético OAB: Conteúdo estritamente informativo conforme o Código de Ética e Disciplina da OAB."
+      ]
+    },
+    {
+      "id": "mobile_sticky_cta",
+      "name": "Sticky CTA Mobile",
+      "elements": [
+        "Barra fixa inferior para telas mobile (<= 768px) com fundo branco translúcido/foco, sombra suave e botão 'INICIAR TRIAGEM' de destaque total"
+      ]
+    }
+  ],
+  "image_urls": [
+    {
+      "category": "hero_portrait",
+      "url": "https://images.unsplash.com/photo-1758518731462-d091b0b4ed0d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w8NTYxODd8MHwxfHNlYXJjaHwxfHxicmF6aWxpYW4lMjBsYXd5ZXIlMjBvZmZpY2UlMjBjb25zdWx0YXRpb24lMjBsYXd5ZXIlMjBkb2N1bWVudCUyMHJldmlld3xlbnwwfHx8fDE3ODcxMTQ1Mjd8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Atendimento advocatício profissional e elegante analisando documentos de direito previdenciário"
+    },
+    {
+      "category": "institutional_office",
+      "url": "https://images.unsplash.com/photo-1731955418581-5ba6827ca5ff?crop=entropy&cs=srgb&fm=jpg&ixid=M3w8NTYxODd8MHwxfHNlYXJjaHwyfHxicmF6aWxpYW4lMjBsYXd5ZXIlMjBvZmZpY2UlMjBjb25zdWx0YXRpb24lMjBsYXd5ZXIlMjBkb2N1bWVudCUyMHJldmlld3xlbnwwfHx8fDE3ODcxMTQ1Mjd8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Ambiente de escritório de advocacia sério, ético com símbolo da justiça"
+    },
+    {
+      "category": "document_review",
+      "url": "https://images.unsplash.com/photo-1564846824194-346b7871b855?crop=entropy&cs=srgb&fm=jpg&ixid=M3w8NTYxODd8MHwxfHNlYXJjaHwzfHxicmF6aWxpYW4lMjBsYXd5ZXIlMjBvZmZpY2UlMjBjb25zdWx0YXRpb24lMjBsYXd5ZXIlMjBkb2N1bWVudCUyMHJldmlld3xlbnwwfHx8fDE3ODcxMTQ1Mjd8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Análise técnica minuciosa de certidões e laudos para BPC/LOAS"
+    }
+  ],
+  "instructions_to_main_agent": {
+    "file_type": "React JS (.js / .jsx)",
+    "single_cta_rule": "The button label MUST strictly be 'INICIAR TRIAGEM' across all primary actions, triggering an interactive modal triagem form or opening the external screening step.",
+    "testing_requirement": "Every interactive button, link, accordion header, form input, and key metric MUST include a distinct data-testid attribute in kebab-case (e.g. data-testid='hero-iniciar-triagem-button', data-testid='faq-accordion-item-1', data-testid='mobile-sticky-cta').",
+    "tone_of_voice": "Strictly legal, informative, balanced, no cheap commercial badges, no false guarantees, fully aligned with Brazilian OAB Ethical Guidelines.",
+    "styling_details": "Use Tailwind CSS classes with custom color hexes or inline tailwind extends. Header must be glassmorphism bg-white/90 backdrop-blur-md (never 100% transparent without blur). Mobile bottom sticky bar must show on screens under 768px."
+  },
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Ensure 100% visual appeal with clean typography, elegant subtle golden accents (#C5A059), deep wine branding (#804040), and spacious layout on background #F1F1F1.",
+    "Do not use generic blue or green. Use the official wine palette specified.",
+    "Implement smooth accordion expansion using Radix Accordion or standard Framer Motion collapsible.",
+    "Ensure all data-testid attributes are set on all clickable elements."
+  ]
+}
