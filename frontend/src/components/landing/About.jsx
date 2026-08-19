@@ -24,16 +24,18 @@ export const About = () => (
           {SITE.firmName}
         </h2>
         <p className="mt-5 max-w-[56ch] text-base leading-relaxed text-[#55555C]">
-          O {SITE.firmName} atua na área previdenciária com foco em atendimento digital, análise
-          individualizada e comunicação clara em cada etapa. O escritório trabalha de forma
-          criteriosa, observando as normas éticas da advocacia e a legislação aplicável.
+          O {SITE.firmName} nasceu há oito anos, em Luzilândia, no interior do Piauí. Criado por
+          três sócios, com foco inicial no interior do estado, o escritório expandiu e conta,
+          atualmente, com sete unidades distribuídas entre Piauí e Maranhão, em expansão para os
+          demais estados do país.
         </p>
         <p className="mt-4 max-w-[56ch] text-base leading-relaxed text-[#55555C]">
-          Esta página tem caráter exclusivamente informativo. Nenhum conteúdo aqui apresentado
-          constitui promessa de resultado, que sempre depende da análise individual do caso.
+          O atendimento especializado é voltado para as diferentes frentes processuais, de forma
+          presencial e digital. Esta página tem caráter exclusivamente informativo e não constitui
+          promessa de resultado, que sempre depende da análise individual do caso.
         </p>
         <p className="mt-6 font-editorial text-lg italic text-[#804040]">
-          Informação clara é o primeiro passo de qualquer análise.
+          {SITE.tagline}
         </p>
       </Reveal>
     </div>

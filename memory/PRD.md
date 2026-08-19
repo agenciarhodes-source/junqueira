@@ -22,15 +22,15 @@
 
 ## Implemented (2026-08-19)
 - Landing completa /bpc-loas com hero cinético (reveal mascarado linha a linha), parallax na imagem, marquee editorial lento, capítulos numerados estilo manifesto, scroll suave Lenis, reveals por seção
-- CTA único com tracking (cta_click + flipform_start) e abertura do Flipform com UTM/GCLID preservados
+- CTA único "FALE COM UM ADVOGADO" (alterado de "INICIAR TRIAGEM" a pedido do cliente) com tracking (cta_click + flipform_start) e abertura do Flipform com UTM/GCLID preservados
 - Sticky CTA mobile (aparece após 420px de scroll)
 - 3 páginas legais com textos padrão
+- Dados reais do escritório: Junqueira Advogados & Associados (8 anos, Luzilândia-PI), sócios Adônis Ferreira (OAB/PI 23.588), Marcos Vinicius (OAB/PI 23.610), Filipe Junqueira (OAB/PI 15.510 · OAB/MA 28.024-A), telefone +55 86 4009-6145, 7 unidades (Teresina, Parnaíba, Luzilândia, Esperantina, Barras/PI; São Bernardo, Araioses/MA) no rodapé; texto institucional real na seção "06 — Institucional"
 - SEO: title/meta exclusivos, lang pt-BR, imagens com lazy loading/auto-format
-- Verificado: desktop + mobile 390px via screenshots; eventos dataLayer e URL do Flipform validados com curl/browser
+- Verificado: desktop + mobile 390px via screenshots; eventos dataLayer e URL do Flipform validados; novo CTA e dados reais conferidos em tela
 
 ## Backlog
 - P0: Inserir URL real do Flipform (editar REACT_APP_FLIPFORM_URL em /app/frontend/.env)
-- P0: Substituir dados placeholder do rodapé (OAB, endereço, telefone, e-mail) em /app/frontend/src/config/site.js
 - P1: Integrar Google Tag Manager / Google Ads reais (IDs fornecidos pelo cliente)
 - P1: Revisão jurídica final dos textos legais pelo escritório
 - P2: Versões /bpc-loas idoso e /bpc-loas pcd para anúncios segmentados

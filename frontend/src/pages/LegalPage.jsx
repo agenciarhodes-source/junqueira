@@ -26,7 +26,7 @@ const CONTENT = {
       },
       {
         heading: "5. Contato",
-        body: `Para exercer direitos ou esclarecer dúvidas sobre esta política, utilize o canal oficial: ${SITE.email}.`,
+        body: `Para exercer direitos ou esclarecer dúvidas sobre esta política, utilize o canal oficial: ${SITE.phoneIntl}.`,
       },
     ],
   },
@@ -68,7 +68,7 @@ const CONTENT = {
       },
       {
         heading: "4. Como exercer seus direitos",
-        body: `As solicitações podem ser encaminhadas pelo canal oficial: ${SITE.email}. As demandas são analisadas e respondidas dentro dos prazos legais.`,
+        body: `As solicitações podem ser encaminhadas pelo canal oficial: ${SITE.phoneIntl}. As demandas são analisadas e respondidas dentro dos prazos legais.`,
       },
     ],
   },
